@@ -10,16 +10,8 @@ import UIKit
 import Alamofire
 class ProductsTableViewController: UITableViewController {
     
-    var products : [Product] = [
-    
-//   Product(name: "test name", qrCode: "jhsdj7373", description: "hey"),
-//    Product(name: "second test name", qrCode: "kfkfksdj7373", description: "you")
-    ]
-    
-   // var products = [testProd, anotherTestProduct]
-    
-    
-    
+    var products : [Product] = []
+  
     let headers = [
     "cache-control": "no-cache" ,
     "content-type": "application/json",
